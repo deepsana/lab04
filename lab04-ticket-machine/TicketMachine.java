@@ -12,6 +12,32 @@
 //Question 1: How can we tell from just its header that setPrice is a method and not a constructor?
 //public void setPrice(int cost)?
 // Because setPrice is not an object
+
+//## Is the `increase` method in the previous question a mutator? If so, how could you demonstrate this?
+// - Yes, it causes a change in the variable so the score changes.
+
+
+//## Write down exactly what will be printed by the following statement:
+```
+//System.out.println("My cat has green eyes.");
+```
+//- My cat has green eyes. will be printed by the given statement.
+
+//## What do you think would be printed if you altered the fourth statement of `printTicket` so that `price` also has quotes around it, as follows?
+```
+//System.out.println("# " + "price" + " cents.");
+```
+//It will print out whatever is inside the parenthesis since it has quotes.
+
+//## What would be printed here?
+```
+//System.out.println("# price cents.");
+```
+//The ""# price cents" will be printed here.
+
+//## Could either of the previous two versions be used to show the price of tickets in different ticket machines? Explain your answer.
+//- No, because it has a quotation mark and it will just print whatever is inside the quotation.
+
 public class TicketMachine
 {
     // The price of a ticket from this machine.
