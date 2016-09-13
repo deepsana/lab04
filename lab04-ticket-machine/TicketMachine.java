@@ -103,8 +103,8 @@ public void prompt()
     TicketMachine x = new TicketMachine(30);
     TicketMachine y = new TicketMachine(20);
     
-    x.showPrice();
-    y.showPrice();
+    x.showPrice;
+    y.showPrice;
     
     /**
      * Print a ticket.
